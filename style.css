@@ -213,3 +213,20 @@ form input[type="email"],
         td {
             font-size: 16px;
         }
+ }
+        .faq-button {
+            position: fixed;
+            top: 60px; /* Tuż pod Top Donators */
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .faq-button:hover {
+            background-color: #0056b3;
+        }
